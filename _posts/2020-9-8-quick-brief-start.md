@@ -25,9 +25,9 @@ categories: jekyll
 
 ## 功能试用
 
-- jekyll 代码高亮
+### jekyll 代码高亮
 
-### Python
+- Python
 
 {% highlight python %}
 def leet_replace(string: str, setting='sd'):  # single, digit replace
@@ -39,7 +39,7 @@ def leet_replace(string: str, setting='sd'):  # single, digit replace
     return result
 {% endhighlight %}
 
-### Bash
+- Bash
 
 {% highlight bash %}
 sudo apt-get update
@@ -48,7 +48,7 @@ sudo apt autoremove
 sudo apt autoclean
 {% endhighlight %}
 
-### nasm
+- nasm
 
 {% highlight nasm %}
 Dump of assembler code for function touch2:
@@ -65,7 +65,7 @@ Dump of assembler code for function touch2:
   0x0040181d <+49>:    call   0x401c8d <validate>
 {% endhighlight %}
 
-- latex
+### latex
 
 $$\begin{array}{l}
   \nabla \cdot D = \rho_0\\
