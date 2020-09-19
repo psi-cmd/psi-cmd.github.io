@@ -23,16 +23,14 @@ email: psiKcmd AT gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
   efficitur volutpat consequat. Donec libero velit, pretium non turpis 
-  eget, placerat consectetur lectus. Nam maximus, lectus non sollicitudin 
-  interdum, sapien justo commodo leo, at auctor enim est vitae diam. Nullam 
-  euismod tristique magna. In ut nibh eget odio auctor rhoncus sed ac ipsum. 
-  Maecenas vulputate dictum purus, ac facilisis elit vestibulum quis.
+  eget, placerat consectetur lectus. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://psi-cmd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: psi-cmd
 
 # Build settings
 theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
 

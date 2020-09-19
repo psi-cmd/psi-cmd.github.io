@@ -2,7 +2,7 @@
 layout: post
 title: "rt-fMRI 治疗成瘾患者课题记录"
 date: 2020-09-13 +8000
-categories: rt-fMRI 实时功能性核磁共振成像
+tags: rt-fMRI 实时功能性核磁共振成像
 ---
 
 ### 前言

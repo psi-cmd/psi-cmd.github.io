@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello world for Jekyll"
 date:   2020-09-08 +0800
-categories: jekyll
+tags: jekyll
 ---
 
 ## 前言
