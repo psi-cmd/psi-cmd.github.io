@@ -25,14 +25,20 @@ description: >- # this means to ignore newlines until "baseurl:"
   efficitur volutpat consequat. Donec libero velit, pretium non turpis 
   eget, placerat consectetur lectus. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://psi-cmd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://koishi.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: psi-cmd
+github_head: "https://avatars0.githubusercontent.com/u/47203885?s=60&v=4"
 
 # Build settings
 theme: minima
 markdown: kramdown
+permalink: /:month-:day-:year/:title
 plugins:
   - jekyll-feed
+
+sass:
+    sass_dir: _sass
+    style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
